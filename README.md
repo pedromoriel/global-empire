@@ -1,4 +1,5 @@
 # global-empire
+Virtual Economy income to real life
 
 ## Concepto
 App/juego móvil (Android + iPhone) estilo *Atlas Earth* donde el jugador compra terrenos virtuales y genera renta por segundo en una economía sustentada por criptomoneda (ejemplo: **PEPE coin**).
@@ -34,7 +35,7 @@ Ejemplos de multiplicadores:
 - **Retiros** a wallet externa con:
   - mínimo de retiro,
   - comisión de red,
-  - validaciones antifraude/KYC según jurisdicción.
+  - validaciones antifraude/KYC (*Know Your Customer*: verificación de identidad) según jurisdicción.
 - Registro auditable de transacciones (depósitos, compras, recompensas, retiros).
 
 ## Monetización con anuncios
@@ -44,7 +45,7 @@ Ejemplos de multiplicadores:
 - Segmentación por país/plataforma para optimizar eCPM.
 
 ## Arquitectura funcional (MVP)
-- **Cliente móvil**: Unity/Flutter/React Native.
+- **Cliente móvil**: recomendado **Flutter** para MVP por velocidad de desarrollo cross-platform. Alternativas: Unity (si se prioriza experiencia 3D) o React Native (si se prioriza ecosistema web/JS).
 - **Backend**:
   - gestión de usuario/inventario,
   - cálculo de renta en tiempo real o por intervalos,
